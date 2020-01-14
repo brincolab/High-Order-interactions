@@ -15,7 +15,7 @@ Transform' data' (T samples x N dimension matrix) to Gaussian with mean 0 and st
 @author: Rubén Herzog, rubenherzog@postgrado.uv.cl
 
 *  `[oinfo,sinfo] = soinfo_from_covmat(covmat,T)` 
-Estimate O-Information and S-Information from the covariance matrix 'covmat'. The estimations include analytic bias correction for the entropy of Gaussian variables depending on 'T' (samples) and 'N' (dimension of 'covmat' matrix).
+Estimate O-Information and S-Information from the covariance matrix 'covmat'. The estimations include analytic bias correction (`gaussian_ent_biascorr(N,T)`) for the entropy of Gaussian variables depending on 'T' (samples) and 'N' (dimension of 'covmat' matrix).
 @author: Rubén Herzog and modify by Marilyn Gatica.
 
 ### Example
