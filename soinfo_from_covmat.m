@@ -1,6 +1,6 @@
 function [oinfo,sinfo] = soinfo_from_covmat(covmat,T)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% author = Rubén Herzog, sirius.high@gmail.com, modify by Marilyn Gatica, marilyn.gatica@uv.cl
+% author = RubÃ©n Herzog, sirius.high@gmail.com, modify by Marilyn Gatica, marilyn.gatica@usach.cl
 % Computes the O-Information and S-Information of gaussian data given their covariance
 % matrix 'covmat'.
 %
