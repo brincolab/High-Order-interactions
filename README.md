@@ -1,4 +1,4 @@
-# High-Order: Quantify 
+# High-Order interactions
 Function to compute and characterize high-order interactions among n brain areas.
 
 | Platform | Version tested              |
