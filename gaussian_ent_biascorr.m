@@ -1,5 +1,5 @@
 function biascorr = gaussian_ent_biascorr(N,T)
-% author = Rubén Herzog, sirius.high@gmail.com
+% author = RubÃ©n Herzog, rubenherzog@postgrado.uv.cl
 % Computes the bias corrector for the entropy estimator based on covariance
 % matrix of gaussians
 %
