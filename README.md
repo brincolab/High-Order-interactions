@@ -21,5 +21,4 @@ Estimate O-Information and S-Information from the covariance matrix 'covmat'. Th
 ### Example
 We attach an example `example1` (without data) to show how to use higher order() among three order interactions. In particular, the example considers 8 subjects and 20 modules.
 
-
-
+Questions / comments : marilyn.gatica@postgrado.uv.cl
