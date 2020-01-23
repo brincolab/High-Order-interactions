@@ -1,7 +1,7 @@
 %{ 
 Code description: Function to compute S-Information, O-Information, and characterize the High-order interactions among n variables governed by Redundancy or Synergy.
 
-Input: - 'data': Matrix with dimensionality (T, N), where N is the number of brain regions or modules, and T is the number of samples.
+Input: - 'data': Matrix with dimensionality (N,T), where N is the number of brain regions or modules, and T is the number of samples.
        - 'n': number of interactions or n-plets. n must be greater or equal, and if n=3, then the interactions is among triplets. 
 
 Output: - 'Red': Matrix with dimension (Npatients,Modules), with the redundancy values per patient and per module
