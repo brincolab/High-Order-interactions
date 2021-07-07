@@ -16,9 +16,9 @@ Transform' data' (T samples x N dimension matrix) to Gaussian with mean 0 and st
 
 *  `[oinfo,sinfo] = soinfo_from_covmat(covmat,T)` 
 Estimate O-Information and S-Information from the covariance matrix 'covmat'. The estimations include analytic bias correction (`gaussian_ent_biascorr(N,T)`) for the entropy of Gaussian variables depending on 'T' (samples) and 'N' (dimension of 'covmat' matrix).
-@author: Rubén Herzog and modify by Marilyn Gatica.
+@author: Rubén Herzog and modified by Marilyn Gatica.
 
 ### Example
-We attach an example `example1` (without data) to show how to use higher order() among three order interactions. In particular, the example considers 8 subjects and 20 modules.
+We attach an example `example1` (without data) to show how to use higher order() among three tiem series. In particular, the example considers 8 subjects and 20 modules.
 
 Questions / comments : marilyn.gatica@postgrado.uv.cl
