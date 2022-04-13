@@ -19,6 +19,17 @@ Estimate O-Information and S-Information from the covariance matrix 'covmat'. Th
 @author: Rubén Herzog and modified by Marilyn Gatica.
 
 ### Example
-We attach an example `example1` (without data) to show how to use higher order() among three tiem series. In particular, the example considers 8 subjects and 20 modules.
+* We attach an example `example1` (without data) to show how to use high_order() among three time series. In particular, the example considers 8 subjects and 20 modules.
+
+* We attach an example `example_triplets` (with data) to show how to use high_order(data,3) among 161 time series. 
+
+### Dataset
+- 161 structural connectivities, dimension 20x20 (/dataset/sc/)
+- 161 time series with 20 brain regions (/dataset/timeseries/) 
+- ages vector ranging from 10 to 80 years old, dimension 1x161  (/dataset/)
+
+Dataset used in https://doi.org/10.1089/brain.2020.0982 and https://doi.org/10.1101/2021.09.15.460435
+
+
 
 Questions / comments : marilyn.gatica@postgrado.uv.cl
