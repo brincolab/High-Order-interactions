@@ -28,7 +28,10 @@ Estimate O-Information and S-Information from the covariance matrix 'covmat'. Th
 - 161 time series with 20 brain regions (/dataset/timeseries/) 
 - ages vector ranging from 10 to 80 years old, dimension 1x161  (/dataset/)
 
-Dataset used in https://doi.org/10.1089/brain.2020.0982 and https://doi.org/10.1101/2021.09.15.460435
+Dataset used in:
+https://doi.org/10.1089/brain.2020.0982 
+https://doi.org/10.3390/e20100742
+https://doi.org/10.1101/2021.09.15.460435
 
 
 
