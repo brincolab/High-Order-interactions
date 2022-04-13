@@ -21,7 +21,7 @@ Estimate O-Information and S-Information from the covariance matrix 'covmat'. Th
 ### Example
 * We attach an example `example1` (without data) to show how to use high_order() among three time series. In particular, the example considers 8 subjects and 20 modules.
 
-* We attach an example `example_triplets` (with data) to show how to use high_order(data,3) among 161 time series. 
+* We attach an example `example_triplets` (with data) to show how to use high_order(data,3) on a lifespan dataset.
 
 ### Dataset
 - 161 structural connectivities, dimension 20x20 (/dataset/sc/)
