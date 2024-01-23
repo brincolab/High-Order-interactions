@@ -39,3 +39,5 @@ https://doi.org/10.1101/2021.09.15.460435
 
 
 Questions / comments : marilyn.gatica@postgrado.uv.cl
+
+The code written by Marilyn Gatica under the supervision of Rodrigo Cofre
