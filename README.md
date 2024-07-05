@@ -6,7 +6,7 @@ Function to compute and characterize high-order interactions among n brain areas
 | Matlab   | R2017b                      |
 
 ### Scripts
-*  `[sinfo,oinfo,red,syn]=high_order(data,n)` Main function. Estimate the O-Information, S-Information, Redundancy, and Synergy among n-plets from 'data' with dimensionality (T, N), where N is the number of brain regions or modules, and T is the number of samples. @author: Marilyn Gatica, marilyn.gatica@postgrado.uv.cl
+*  `[sinfo,oinfo,red,syn]=high_order(data,n)` Main function. Estimate the O-Information, S-Information, Redundancy, and Synergy among n-plets from 'data' with dimensionality (T, N), where N is the number of brain regions or modules, and T is the number of samples. @author: Marilyn Gatica, marilyn.gatica@nulondon.ac.uk 
 
 *n must be greater or equal than three. We test from 3-plets up 20-plets, and we recommend truncating all the data to the same number of samples T.*
  
@@ -38,6 +38,6 @@ https://doi.org/10.1101/2021.09.15.460435
 
 
 
-Questions / comments : marilyn.gatica@postgrado.uv.cl
+Questions / comments : marilyn.gatica@nulondon.ac.uk 
 
 The code written by Marilyn Gatica under the supervision of Rodrigo Cofre
